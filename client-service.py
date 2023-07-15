@@ -88,9 +88,9 @@ final_frame.pack(side=tk.TOP)
 middle_frame.pack_forget()
 
 button_frame = tk.Frame(window_main)
-photo_rock = PhotoImage(file=r"rock.gif")
-photo_paper = PhotoImage(file = r"paper.gif")
-photo_scissors = PhotoImage(file = r"scissors.gif")
+photo_rock = PhotoImage(file=r"ui-rock.gif")
+photo_paper = PhotoImage(file = r"ui-paper.gif")
+photo_scissors = PhotoImage(file = r"ui-scissors.gif")
 
 btn_rock = tk.Button(button_frame, text="Rock", command=lambda : choice("rock"), state=tk.DISABLED, image=photo_rock)
 btn_paper = tk.Button(button_frame, text="Paper", command=lambda : choice("paper"), state=tk.DISABLED, image=photo_paper)
